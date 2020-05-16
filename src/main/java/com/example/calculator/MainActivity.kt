@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //Number buttons
+        //Number buttons(From 1 to 9)
         tvOne.setOnClickListener{
             evaluateExpression("1", clear = true)
         }
