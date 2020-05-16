@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        //Button for going back to remove the last number
+        //Button for removing the last number
         tvBack.setOnClickListener{
             val text = tvExpression.text.toString()
             if(text.isNotEmpty()){
